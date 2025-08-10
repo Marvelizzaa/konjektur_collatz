@@ -18,7 +18,7 @@ def proses_angka():
 def main():
     while True:
         proses_angka()
-        lanjut = input("Apakah anda ingin melanjutkan? (y/n)")
+        lanjut = input("Apakah anda ingin melanjutkan? (y/n): ")
         if lanjut.lower() != 'y':
             print("makasih yaaa")
             break
